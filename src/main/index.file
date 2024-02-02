@@ -1,0 +1,22 @@
+1. 기본적인 Owner CRUD API 구현
+
+전체 Owner 조회
+id로 Owner 조회
+Owner 등록
+Owner 정보 수정
+Owner 정보 제거
+
+구현 후 Postman API Document로 추출
+
+2. Owner 등록 시 아래의 라이브러리를 활용하여 입력값에 대한 유효성을 검증하는
+OwnerRequest DTO 생성 및 활용
+(ex. firstName은 1글자 이상 30글자 이내 등)
+활용 라이브러리 - https://beanvalidation.org/
+
+=> 민선님 깃허브에 라이브러리(MapStruct) 활용한 코드 있음. 참고하기
+https://github.com/woorifisa-service-dev-2nd/backend-mapstruct-example
+https://fine-expert-ec8.notion.site/MapStruct-e88ff0d392be4df69d377a4efa22bf7b?pvs=4
+
+
+build.gradle에 아래의 라이브러리가 설치되어 있는지 확인
+implementation 'org.springframework.boot:spring-boot-starter-validation'
